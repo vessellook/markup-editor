@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.idea
+
+# virtualenv
+.venv
+venv/
+ENV/
+.vscode
+
+# Other
+*.code-workspace
+*.sqlite3
+celerybeat-schedule
+dumps
+data/
+.env
+node_modules
+

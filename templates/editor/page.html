@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo editor</title>
+    <link rel="stylesheet" href="{% static 'editor/annotorious/annotorious.min.css' %}">
+    <link rel="stylesheet" href="{% static 'editor/editor.css' %}">
+    <script src="{% static 'editor/annotorious/openseadragon.js' %}"></script>
+    <script src="{% static 'editor/annotorious/openseadragon-annotorious.min.js' %}"></script>
+    <script src="{% static 'editor/annotorious/annotorious-toolbar.min.js' %}"></script>
+    <script src="{% static 'editor/annotorious/annotorious-better-polygon.min.js' %}"></script>
+</head>
+<body>
+{% include 'editor/editor.html' %}
+<script src="{% static 'editor/editor.js' %}"></script>
+</body>
+</html>
